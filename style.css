@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&family=Poppins:wght@100;300;400;500;600&display=swap');
+*{ 
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    height: 100vh;
+    background: linear-gradient(to right, #ff9472, #f2709c);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: metal Mania;
+}
+.clock{
+    width: 550px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.clock div{
+    background-color: white;
+    height: 100%;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+    color: #202020;
+    border-radius: 5px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, .3);
+    letter-spacing: 3px;
+
+}
+.clock span{
+    color: white;
+    font-size: 60px;
+    font-weight: bolder;
+
+}
+/* .hrs {
+    display: block;
+    align-items: center;
+    bottom: 200px;
+    color: red;
+    
+} */
+footer{
+    /* padding: 40px; */
+    margin-top: 500px;
+    color: white;
+    /* align-items: center; */
+}
